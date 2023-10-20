@@ -55,6 +55,12 @@ build CMakeFiles/1C_Introductery_Work.dir/main.cpp.o: CXX_COMPILER__1C_Introduct
   OBJECT_DIR = CMakeFiles/1C_Introductery_Work.dir
   OBJECT_FILE_DIR = CMakeFiles/1C_Introductery_Work.dir
 
+build CMakeFiles/1C_Introductery_Work.dir/StringSimilarityCalculator.cpp.o: CXX_COMPILER__1C_Introductery_Work_unscanned_Debug /home/popados/CLionProjects/1C-Introductery-Work/StringSimilarityCalculator.cpp || cmake_object_order_depends_target_1C_Introductery_Work
+  DEP_FILE = CMakeFiles/1C_Introductery_Work.dir/StringSimilarityCalculator.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/1C_Introductery_Work.dir
+  OBJECT_FILE_DIR = CMakeFiles/1C_Introductery_Work.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 1C_Introductery_Work
@@ -63,7 +69,7 @@ build CMakeFiles/1C_Introductery_Work.dir/main.cpp.o: CXX_COMPILER__1C_Introduct
 #############################################
 # Link the executable 1C_Introductery_Work
 
-build 1C_Introductery_Work: CXX_EXECUTABLE_LINKER__1C_Introductery_Work_Debug CMakeFiles/1C_Introductery_Work.dir/main.cpp.o
+build 1C_Introductery_Work: CXX_EXECUTABLE_LINKER__1C_Introductery_Work_Debug CMakeFiles/1C_Introductery_Work.dir/main.cpp.o CMakeFiles/1C_Introductery_Work.dir/StringSimilarityCalculator.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/1C_Introductery_Work.dir
   POST_BUILD = :
