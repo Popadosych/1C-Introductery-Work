@@ -1,0 +1,3 @@
+/home/popados/CLionProjects/1C-Introductery-Work/cmake-build-debug/CMakeFiles/1C_Introductery_Work.dir
+/home/popados/CLionProjects/1C-Introductery-Work/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/popados/CLionProjects/1C-Introductery-Work/cmake-build-debug/CMakeFiles/rebuild_cache.dir
