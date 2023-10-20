@@ -16,7 +16,7 @@ mkdir build
 cd build
 cmake ..
 make
- ./1C_Introductery_Work /home/popados/CLionProjects/1C-Introductery-Work/test/first_dir /home/popados/CLionProjects/1C-Introductery-Work/test/second_dir 0
+./1C_Introductery_Work /home/popados/CLionProjects/1C-Introductery-Work/test/first_dir /home/popados/CLionProjects/1C-Introductery-Work/test/second_dir 0
 ```
 
 И на вывод пользователь получает
