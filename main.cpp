@@ -4,11 +4,6 @@
 #include <vector>
 #include "StringSimilarityCalculator.hpp"
 
-namespace TestConstants {
-  const std::string kFirstPath =  "/home/popados/CLionProjects/1C-Introductery-Work/test/first_dir";
-  const std::string kSecondPath = "/home/popados/CLionProjects/1C-Introductery-Work/test/second_dir";
-};
-
 std::string MakeFileName(std::string& file_path) {
     bool is_second_slash = false;
     int index;
@@ -80,10 +75,6 @@ std::vector<std::string> Process(const std::string& first_dir_path, const std::s
 }
 
 int main(int argc, char* argv[]) {
-    if (argc != 3) {
-        return 1;
-    }
-
     auto ans = Process(argv[1], argv[2], atoi(argv[3]));
 
     for (int i = 0; i < ans.size(); ++i) {
